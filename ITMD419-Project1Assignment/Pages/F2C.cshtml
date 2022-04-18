@@ -1,0 +1,11 @@
+﻿@page
+@model ITMD419_Project1Assignment.Pages.F2C
+@{
+}
+
+<form method="post">
+    <label asp-for="InputValue">Please enter a Fahrenheit to convert</label>
+    <input asp-for="InputValue" type="text" value="" />
+    <button>Submit</button>
+</form>
+<p>@Model.ConversionResult</p>

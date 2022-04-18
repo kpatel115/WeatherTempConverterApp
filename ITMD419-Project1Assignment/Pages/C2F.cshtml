@@ -1,0 +1,12 @@
+﻿@page
+@model ITMD419_Project1Assignment.Pages.C2F
+@{
+}
+
+<form method="post">
+    <label asp-for="InputValue">Please enter a Celsuis to convert</label>
+    <input asp-for="InputValue" type="text" value="" />
+    <button>Submit</button>
+</form>
+<p>@Model.Result</p>
+
